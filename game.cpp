@@ -7,10 +7,10 @@
 void game::Game() {
     cout<<"Objective : get all the $'s before they fill more than 50% of the board!"<<endl;
     cout<<"Contorls :"<<endl;
-    cout<<"UP - 8"<<endl;
-    cout<<"DOWN - 2"<<endl;
-    cout<<"LEFT - 4"<<endl;
-    cout<<"RIGHT - 6"<<endl;
+    cout<<"     UP - 8"<<endl;
+    cout<<"     DOWN - 2"<<endl;
+    cout<<"     LEFT - 4"<<endl;
+    cout<<"     RIGHT - 6"<<endl;
     p->print();
     while (cin && p->checkBoard()) {
         int m;
