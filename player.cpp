@@ -59,7 +59,7 @@ void player::move(const int& arrow) {
             }
             break;
         default:
-            cout << endl << "enter a valid input5" << endl;  // not arrow
+            cout << endl << "enter a valid input" << endl;  // not arrow
             break;
     }
 
